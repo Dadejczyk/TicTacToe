@@ -1,24 +1,22 @@
-# Tic Tac Toe Game
+## Description
 
-## Opis
+A simple implementation of the tic-tac-toe game in Java. The game allows two players (X and O) to compete on a 3x3 board. Players take turns entering the number of the box they want to place their symbol in.
 
-Prosta implementacja gry w kółko-krzyżyk w języku Java. Gra umożliwia dwóm graczom (X i O) rywalizację na planszy 3x3. Gracze wykonują ruchy na zmianę, wprowadzając numer pola, w którym chcą umieścić swój symbol.
+## Instructions
 
-## Instrukcje
+1 The game starts with an empty board.
+2. player X starts the game by entering the field number (1-9) in which he wants to place the 'X'.
+3. player O takes his turn, also stating the field number (1-9) in which he wishes to place 'O'.
+(4) Play continues in turn until one player wins or a tie ends.
+5. the player who first arranges his three symbols in a line (horizontal, vertical or diagonally) wins.
 
-1. Gra rozpoczyna się od pustej planszy.
-2. Gracz X rozpoczyna grę, podając numer pola (1-9), w którym chce umieścić 'X'.
-3. Gracz O wykonuje swoją turę, również podając numer pola (1-9), w którym chce umieścić 'O'.
-4. Gra kontynuuje się na zmianę, aż jeden z graczy zwycięży lub zakończy się remis.
-5. Wygrywa gracz, który pierwszy ułoży trzy swoje symbole w jednej linii (poziomej, pionowej lub na skos).
+## Functions
 
-## Funkcje
+- Checking for correct movement, that the field is free and is in the range 1-9.
+- Detecting the victory of one of the players.
+- Recognition of a tie (no fields available on the board).
+- Ability to run the game multiple times.
 
-- Sprawdzanie poprawności ruchu, czy pole jest wolne i znajduje się w zakresie 1-9.
-- Wykrywanie zwycięstwa jednego z graczy.
-- Rozpoznawanie remisu (brak dostępnych pól na planszy).
-- Możliwość uruchomienia gry wielokrotnie.
+## Getting started
 
-## Uruchamianie
-
-Skompiluj i uruchom program w środowisku obsługującym język Java.
+Compile and run the program in a Java-enabled environment.
